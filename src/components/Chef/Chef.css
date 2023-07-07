@@ -1,0 +1,82 @@
+.app__chef {
+  background: url(../../assets/bg1.avif) no-repeat center center/cover;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.app__chef__image {
+  width: 80%;
+  height: 80vh;
+}
+.quote {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: flex-end;
+  gap: 5px;
+}
+.quote img {
+  width: 70px;
+  height: 80px;
+  object-fit: contain;
+}
+.ppp {
+  font-size: 1.2rem;
+  color: var(--color-white);
+  line-height: 1.5;
+  font-family: var(--font-base);
+}
+.app__chef__image img {
+  width: 100%;
+  height: 100%;
+}
+
+.p3 {
+  margin-bottom: 2rem;
+}
+
+.chef__name {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.chef__name p {
+  color: var(--color-golden);
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.chef__name small {
+  color: var(--color-white);
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.signature {
+  width: 220px;
+  height: 200px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1200px) {
+  .app__chef {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .app__chef__image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .app__chef__image img {
+    width: 100%;
+    height: 100%;
+  }
+}

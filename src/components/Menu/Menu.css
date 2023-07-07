@@ -1,0 +1,121 @@
+.app__menu {
+  background-color: var(--color-black);
+}
+
+.menu__head p {
+  text-align: center;
+}
+.menu__head h1 {
+  text-align: center;
+}
+
+.menu__head img {
+  width: 50px;
+  object-fit: contain;
+  display: flex;
+  margin-left: auto;
+  margin-bottom: 3rem;
+  margin-right: auto;
+}
+.menu__items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.menu__image {
+  width: 100%;
+  height: 80vh;
+  object-fit: contain;
+}
+
+.menu__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.wine__beer h2 {
+  font-size: 3rem;
+  color: var(--color-white);
+  font-family: var(--font-base);
+  margin-bottom: 2.4rem;
+  text-align: center;
+}
+
+.wine__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+  margin-top: 10px;
+}
+.wine__content p {
+  color: var(--color-golden);
+  font-size: var(--font-base);
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.wine__price h6 {
+  font-size: 1.8rem;
+  color: var(--color-white);
+  margin-left: 0.5rem;
+  font-family: var(--font-base);
+}
+.wine__price {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.wine__price div {
+  width: 60px;
+  height: 1.5px;
+  background-color: var(--color-white);
+}
+.wine__content__container {
+  margin-bottom: 3rem;
+}
+.wine__content__container small {
+  font-size: 1.7rem;
+  margin-top: 2rem;
+  color: var(--color-grey);
+  font-family: var(--font-base);
+}
+
+@media screen and (max-width: 1200px) {
+  .menu__items {
+    flex-direction: column;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .menu__image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .menu__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wine__beer h2 {
+    font-size: 2rem;
+  }
+
+  .wine__content__container small {
+    font-size: 1.3rem;
+   
+  }
+}

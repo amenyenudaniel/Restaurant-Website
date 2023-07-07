@@ -1,0 +1,56 @@
+.app__contact {
+  display: flex;
+  align-items: center;
+  background-attachment: fixed;
+  justify-content: space-between;
+  background-color: var(--color-black);
+  gap: 3rem;
+}
+
+.app__contact__content img {
+  margin-bottom: 3rem;
+}
+
+.p4 {
+  margin-bottom: 2rem;
+}
+.p5 {
+  margin-bottom: 1rem;
+  color: var(--color-golden);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.p6 {
+  margin-bottom: 0.5rem;
+}
+
+.p7 {
+  margin-bottom: 3rem;
+}
+
+.app__contact__image {
+  max-width: 40%;
+  height: 100%;
+}
+
+.app__contact__image img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .app__contact {
+    flex-direction: column;
+  }
+
+  .app__contact__image {
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .app__contact__image img {
+    width: 100%;
+    height: 100%;
+  }
+}

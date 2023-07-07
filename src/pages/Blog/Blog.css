@@ -1,0 +1,77 @@
+.app__subscribe {
+  background-image: url(../../assets/blogHead.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: darken;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 2rem;
+}
+
+.subscribe__container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid var(--color-golden);
+  gap: 1rem;
+  padding: 3rem 2rem;
+  text-align: center;
+  background-color: var(--color-black);
+}
+
+.subscribe__container p {
+  font-size: 1.1rem;
+  font-family: monospace;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  color: var(--color-white);
+}
+
+.subscribe__container h2 {
+  font-size: 2.4rem;
+  color: var(--color-golden);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.subscribe__input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.subscribe__input input {
+  height: 38px;
+  width: 100%;
+  outline: none;
+  color: var(--color-golden);
+  background-color: transparent;
+  border: 1px solid var(--color-golden);
+  font-size: 1rem;
+}
+.subscribe__input input {
+  padding-left: 1rem;
+}
+.subscribe__input input::placeholder {
+  margin-left: 1rem;
+}
+@media screen and (max-width: 600px) {
+  .subscribe__input {
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .app__subscribe {
+    padding: 1rem 1rem;
+  }
+}

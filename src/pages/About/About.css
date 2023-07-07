@@ -1,0 +1,101 @@
+.about {
+  background-color: var(--color-black);
+  position: relative;
+}
+.app__about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__about__content1 {
+  text-align: end;
+  z-index: 2;
+}
+.app__about__content2 {
+  text-align: start;
+  z-index: 2;
+}
+
+.knife__image {
+  height: 100vh;
+  width: 300px;
+  z-index: 2;
+}
+.knife__image img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.g__image {
+  z-index: 0;
+  width: 393px;
+  display: flex;
+  height: 491px;
+  inset: 0;
+  margin: auto auto;
+  position: absolute;
+}
+
+.g__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.about__spoon {
+  margin-bottom: 1.3rem;
+}
+
+.app__about__content1 p,
+.app__about__content2 p {
+  color: var(--color-grey);
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 1150px) {
+  .app__about {
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+  }
+  .app__about__content1,
+  .app__about__content2 {
+    text-align: center;
+  }
+
+  .about {
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .g__image {
+    width: 300px;
+    height: 421px;
+  }
+
+  .g__image img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .app__about__content1 p,
+.app__about__content2 p {
+  font-size: 1.1rem;
+}
+}
+
+@media screen and (max-width: 320px) {
+  .g__image {
+    width: 230px;
+    height: 400px;
+  }
+
+  .g__image img {
+    width: 100%;
+    height: 100%;
+  }
+}

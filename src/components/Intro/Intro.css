@@ -1,0 +1,11 @@
+.app__intro{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.app__intro video{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
