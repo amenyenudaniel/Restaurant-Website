@@ -1,8 +1,8 @@
 .app__subscribe {
-  background-image: url(../../assets/blogHead.avif);
+  background-image: url(../../assets/blog.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: darken;
   background-size: cover;
   height: 100vh;

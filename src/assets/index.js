@@ -34,7 +34,7 @@ import bg2 from "./bg2.avif";
 import bg3 from "./bg3.avif";
 import bg4 from "./bg4.avif";
 import blur1 from "./blur1.avif";
-import blogHead from "./blogHead.avif";
+import blog from "./blog.jpg";
 
 export {
   award01,
@@ -73,5 +73,5 @@ export {
   meal4,
   meal5,
   blur1,
-  blogHead
+  blog,
 };

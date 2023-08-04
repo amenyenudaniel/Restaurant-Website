@@ -1,3 +1,11 @@
-## Gericht Restaurant
+# Gericht Restaurant Web Application
 
-![Restaurant-Image](readme.webp)
+![Alt text](resturant-web.png)
+
+## Skills used in building this web application
+
+#### HTML
+
+#### CSS
+
+#### React JS
